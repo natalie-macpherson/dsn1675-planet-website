@@ -46,7 +46,7 @@ img {
     list-style-type: none;
 }
 
-.nav a {
+a {
     display: inline-block;
     color:#0074D9;
     text-decoration: none;
@@ -64,14 +64,14 @@ img {
         border: 0;
     }
 }
-    
-@media only screen and (min-width: 40em) {
+ 
+@media only screen and (min-width: 38em) {
 
     .title{
-        float: left;
+        text-align: left;
         }
 
-    .nav li {
-        float: left;
+    .nav {
+        text-align: left;
         }    
-    }
+}
