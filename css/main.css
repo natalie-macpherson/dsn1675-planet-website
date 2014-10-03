@@ -30,6 +30,11 @@ body {
     overflow: hidden;
 }
 
+.light-gray {
+    background-color: #e2e2e2;
+    text-align:center;
+}
+
 img {
   display: block;
   width: 100%;
