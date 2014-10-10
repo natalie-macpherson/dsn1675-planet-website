@@ -25,6 +25,12 @@ body {
   padding: 0;
 }
 
+.title {
+    text-align: center;
+    margin: 0;
+    padding: 0;;
+}
+
 .gray {
     background-color: #CCC;
     overflow: hidden;
@@ -40,10 +46,12 @@ img {
   width: 100%;
 }
 
-.title {
-    text-align: center;
-    margin: 0;
-    padding: 0;
+.character-color {
+    background-color: #e2e2e2;
+}
+
+.img-color {
+    background-color: #efefef;
 }
 
 .nav {
