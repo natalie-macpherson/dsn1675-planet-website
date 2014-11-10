@@ -85,12 +85,13 @@ table {
     color: white;
 }
 
-table-column {
+.table-column {
     background-color: #efefef;
 }
 
-table, td, th, tr {
-    border: 1px solid #1F2E3C;
+}
+table, td, th {
+    border: 1px solid black;
 }
 
 .team {
@@ -277,9 +278,9 @@ nav li a:hover {
     }
 }
 
-@media only screen and (max-width: 20rem), (min-device-width: 17rem) and (max-device-width: 20rem)
+@media only screen and (max-width: 17rem), (min-device-width: 17rem) and (max-device-width: 17rem)
 {
-       table, thread, tbody th, td, tr{
+       table, th, td, tr{
         display: block;
     }
     
