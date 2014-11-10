@@ -70,7 +70,8 @@ a:focus {
 .title {
     text-align: center;
     margin: 0;
-    padding: 0;;
+    padding: 0;
+    color: white;
 }
 
 table {
@@ -79,9 +80,18 @@ table {
 }
 
 .table-header {
-    background-color: #e2e2e2;
+    background-color: #1F2E3C;
     font-weight: bold;
+    color: white;
 }
+
+.table-color {
+    background-color: #919191;
+}
+
+ .table-light {
+     background-color: #e2e2e2;
+ }
 
 td {
     border-bottom: 1px solid #e2e2e2;
@@ -91,6 +101,11 @@ td {
     text-align: center;
     margin: 0;
     padding: 0;
+}
+
+.intro {
+    color: white;
+    background-image: url(../images/mars.gif);
 }
 
 form {
@@ -143,26 +158,29 @@ button {
 }
 
 .gray {
-    background-color: #CCC;
+    background-color: #1F2E3C;
     overflow: hidden;
 }
 
 .light-gray {
-    background-color: #e2e2e2;
     text-align:center;
 }
 
 .bottom-gray {
-    background-color: #e2e2e2;
+    background-color:#333333;
 }
 
+.white {
+    color: white;
+}
+ 
 img {
   display: block;
   width: 100%;
 }
 
 .character-color {
-    background-color: #e2e2e2;
+    background-color: #333333;
 }
 
 .img-color {
@@ -175,13 +193,13 @@ img {
 
 a {
     display: inline-block;
-    color:#0074D9;
+    color:white;
     text-decoration: none;
 }
 
 .nav-bottom li::after {
     content: " · ";
-    color: blue;
+    color: white;
 }
 
 .nav-bottom li:last-child::after {
@@ -217,6 +235,10 @@ a {
     
      .footer {
         text-align: right;
+    }
+    
+    .copyright {
+        color: white;
     }
 }
 
