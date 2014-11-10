@@ -87,10 +87,10 @@ table {
 
 .table-column {
     background-color: #efefef;
+    border: 1px solid black;
 }
 
-}
-table, td, th {
+td {
     border: 1px solid black;
 }
 
@@ -249,7 +249,6 @@ nav li a:hover {
         border: none;
         border-bottom: 1px solid #1F2E3C;
     }
-}
 
 }
 
@@ -295,7 +294,7 @@ nav li a:hover {
     }
 
     td {
-        border: none;
+        border: 1px solid black;
         position: relative;
     }
     
