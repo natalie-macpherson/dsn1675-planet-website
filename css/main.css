@@ -85,16 +85,12 @@ table {
     color: white;
 }
 
-.table-color {
-    background-color: #919191;
+table-column {
+    background-color: #efefef;
 }
 
- .table-light {
-     background-color: #e2e2e2;
- }
-
-td {
-    border-bottom: 1px solid #e2e2e2;
+table, td, th, tr {
+    border: 1px solid #1F2E3C;
 }
 
 .team {
@@ -247,6 +243,13 @@ nav li a:hover {
     .copyright {
         color: white;
     }
+    
+    table, td, th, tr {
+        border: none;
+        border-bottom: 1px solid #1F2E3C;
+    }
+}
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -271,5 +274,36 @@ nav li a:hover {
     
      .data dd {
         float: left;
+    }
+}
+
+@media only screen and (max-width: 20rem), (min-device-width: 17rem) and (max-device-width: 20rem)
+{
+       table, thread, tbody th, td, tr{
+        display: block;
+    }
+    
+    .table-header {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr { 
+        border: 1px solid black;
+    }
+
+    td {
+        border: none;
+        position: relative;
+    }
+    
+    td:before {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-left: 10px;
+        white-space: nowrap;
     }
 }
