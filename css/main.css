@@ -191,10 +191,16 @@ img {
     padding: 0;
 }
 
+
 a {
     display: inline-block;
     color:white;
     text-decoration: none;
+}
+
+nav li a:hover {
+      color: white;
+      background-color: #999999;
 }
 
 .nav-bottom li::after {
