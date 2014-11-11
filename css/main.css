@@ -103,6 +103,7 @@ td {
 .intro {
     color: white;
     background-image: url(../images/mars.gif);
+    background-repeat: no-repeat;
 }
 
 form {
