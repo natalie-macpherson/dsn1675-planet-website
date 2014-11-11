@@ -104,6 +104,7 @@ td {
     color: white;
     background-image: url(../images/mars.gif);
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 form {
